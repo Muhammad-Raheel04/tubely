@@ -18,9 +18,9 @@ const categories = [
         path: "/category/trending"
     },
     {
-        title: "Guess Papers",
+        title: "New",
         icon: Brain,
-        path: "/category/guess"
+        path: "/category/new"
     }
 ]
 
