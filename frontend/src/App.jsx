@@ -1,10 +1,14 @@
 import React from 'react'
+import './APP.css'
+import LandingPage from './pages/LandingPage'
 
 const App = () => {
   return (
-    <div>
-      tubely
-    </div>
+    <>
+      <div className='flex flex-col gap-3'>
+       <LandingPage></LandingPage>
+      </div>
+    </>
   )
 }
 
